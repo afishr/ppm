@@ -1,0 +1,6 @@
+{
+  "python.analysis.autoImportCompletions": true,
+  "editor.defaultFormatter": "ms-python.autopep8",
+  "python.missingPackage.severity": "Error",
+  "python.analysis.typeCheckingMode": "standard"
+}

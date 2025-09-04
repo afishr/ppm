@@ -1,0 +1,2 @@
+-e git+https://github.com/afishr/ppm.git@c4fb5ea720496bf85aaa6ce4dd025972fe5994f7#egg=ppm
+setuptools==80.9.0
