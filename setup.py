@@ -1,4 +1,3 @@
-# setup.py
 from setuptools import setup
 from codecs import open
 from os import path
@@ -6,7 +5,7 @@ from os import path
 HERE = path.abspath(path.dirname(__file__))
 
 with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
-    long_description = f.read()
+  long_description = f.read()
 
 setup(
     name="ppm",
@@ -14,7 +13,7 @@ setup(
     description="A pip wrapper like npm",
     author="Alexandr Calugari",
     author_email="afishr00@gmail.com",
-    py_modules=["ppm"],
+    py_modules=["ppm", "pip_tools"],
     install_requires=[],
     entry_points={
         "console_scripts": [
@@ -23,7 +22,6 @@ setup(
     },
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.3',
